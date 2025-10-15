@@ -20,7 +20,7 @@ export default async function Home() {
 
       <p>A blog for hunting coders by a hunting coder</p>
 
-      <h2>Latest Blogs</h2>
+      <h2>Latest Blogs with us</h2>
         <ul>
         {blogs.map((blog) => (
           <li key={blog.slug}>
