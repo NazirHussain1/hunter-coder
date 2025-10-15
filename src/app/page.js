@@ -17,10 +17,10 @@ export default async function Home() {
         height={200}       // set height
         priority           // optimize for first load
       />
-
+ 
       <p>A blog for hunting coders by a hunting coder</p>
 
-      <h2>Latest Blogs with us</h2>
+      <h2>Latest Blogs with us hello daynl</h2>
         <ul>
         {blogs.map((blog) => (
           <li key={blog.slug}>
